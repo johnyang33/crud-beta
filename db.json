@@ -1,0 +1,30 @@
+{
+  "books": [
+    {
+      "title": "Lion and the Witch",
+      "id": 1
+    },
+    {
+      "title": "Harry Potter",
+      "id": 2
+    }
+  ],
+
+  "customers": [
+    { "id": 1, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
+    { "id": 2, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
+    { "id": 3, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
+    { "id": 4, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
+    { "id": 5, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."}
+  ],
+
+
+  "data": [
+    { "name": "Apple", "color": "bg-orange-500", "score": 5 },
+    { "name": "Orange", "color": "bg-orange-500", "score": 3 },
+    { "name": "Lime", "color": "bg-orange-500", "score": 1 },
+    { "name": "Grape", "color": "bg-orange-500", "score": 4 }
+  ]
+
+
+}

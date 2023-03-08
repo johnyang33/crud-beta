@@ -1,0 +1,89 @@
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+
+function App() { 
+  const [books,setBooks] = useState([]);
+  const [title,setTitle] = useState('');
+  const [showEdit, setShowEdit] = useState(false);
+
+  const bookListStyles = {
+
+    border : "1px solid blue",
+    padding: "5px",
+    marginBottom: "5px"
+
+  }
+
+  const fetchBooks = async () => {
+    const response = await axios.get('http://localhost:3001/books');
+    //console.log(response.data);
+    setBooks(response.data);
+    };
+
+    useEffect(()=> {  
+      fetchBooks();
+    }, []);
+
+   const createBook = async () => { 
+    
+    const response = await axios.post('http://localhost:3001/books', { title:title }
+    );
+
+    console.log(response.data);
+    
+    const updatedBooks = [...books, response.data];
+
+    setBooks(updatedBooks);
+
+  };
+
+   const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('submitted!');
+    createBook(event.target.value);
+
+   };
+
+   const handleChange = (event) => {
+    console.log(event.target.value);
+    setTitle(event.target.value);
+   };
+
+
+   const handleEditClick = (event) => { 
+    console.log('edit clicked'); 
+    setShowEdit(!showEdit);
+   }
+
+  const renderedBooks = books.map((book) => {
+    
+    if(!showEdit) { 
+      return (
+      <div className={bookListStyles} key={book.id}>
+        {book.title}
+        <button onClick={handleEditClick} value={book.id}>edit</button>
+      </div>
+    )}
+    return <div key={book.id}>
+      <form>
+        <label>edit your title:</label>
+        <input />
+        <button>submit</button>
+      </form>
+    </div>
+ });
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <div>Label</div>
+        <input value={title} onChange={handleChange}/>
+        <button>add book</button>
+      </form>
+      <div>Books:</div>
+      <div>{renderedBooks}</div>
+    </div>
+  )
+}
+
+export default App;
