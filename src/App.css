@@ -64,3 +64,21 @@ justify-content: center;
 .product_filter_on { 
   background: orange;
 }
+
+#create_product_form { 
+  border:1px solid gray;
+  width:400px;
+  padding:20px;
+}
+
+input { border:1px solid gray;display:block; width:350px;margin-bottom:20px;}
+button.submit { border: 1px solid gray; background: orange;}
+
+
+.sort_container {
+  display: flex;
+  justify-content: center; 
+  margin-bottom:20px;
+}
+
+button.sort { display:inline-block;border: 1px solid gray; background: orange; padding:5px 10px; border-radius: 2px;}

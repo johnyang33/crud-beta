@@ -1,53 +1,121 @@
 {
-  "books": [
+  "products": [
     {
-      "title": "Lion and the Witch",
-      "id": 1
+      "id": 1,
+      "title": "iphone 12",
+      "description": "an iphone 16",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "price": 14.34,
+      "rating": 5,
+      "category": "smartphones"
     },
     {
-      "title": "Harry Potter",
-      "id": 2
+      "id": 2,
+      "title": "iphone 13",
+      "description": "an iphone 16",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "price": 12.34,
+      "rating": 5,
+      "category": "fragrances"
+    },
+    {
+      "id": 3,
+      "title": "iphone 14",
+      "description": "an iphone 16",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "price": 15.34,
+      "rating": 5,
+      "category": "smartphones"
+    },
+    {
+      "title": "title new",
+      "category": "category new",
+      "price": "3.22",
+      "rating": "3",
+      "description": "description new",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 4
+    },
+    {
+      "title": "title2",
+      "category": "category3",
+      "price": "3.33",
+      "rating": "2",
+      "description": "descriptiio3",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 5
+    },
+    {
+      "title": "fragrance title",
+      "category": "fragrances",
+      "price": "3.33",
+      "rating": "3",
+      "description": "description frag",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 6
+    },
+    {
+      "title": "fragrances4",
+      "category": "fragrances",
+      "price": "3.22",
+      "rating": "4",
+      "description": "frag",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 7
+    },
+    {
+      "title": "fra2",
+      "category": "fragrances",
+      "price": "2",
+      "rating": "3",
+      "description": "asdf",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 8
+    },
+    {
+      "title": "3asd",
+      "category": "fragrances",
+      "price": "2",
+      "rating": "2",
+      "description": "eadf",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 9
+    },
+    {
+      "title": "fra3",
+      "category": "fragrances",
+      "price": "32",
+      "rating": "5",
+      "description": "ae3",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 10
+    },
+    {
+      "title": "asdfas",
+      "category": "fragrances",
+      "price": "3.22",
+      "rating": "2",
+      "description": "descriptiio3",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 11
+    },
+    {
+      "title": "shoes",
+      "category": "shoes",
+      "price": "34.33",
+      "rating": "9",
+      "description": "shoes 11lkasjrelqw3klkjasfl",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "id": 12
+    },
+    {
+      "title": "magic",
+      "category": "shoes",
+      "price": "2.22",
+      "rating": "9",
+      "description": "something is in the air tonight",
+      "thumbnail": "",
+      "id": 13
     }
-  ],
-
-  "customers": [
-    { "id": 1, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 2, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 3, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
-    { "id": 4, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 5, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."},
-    { "id": 1, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 2, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 3, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
-    { "id": 4, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 6, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."},
-    { "id": 7, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 8, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 9, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
-    { "id": 10, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 11, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."},
-    { "id": 12, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 13, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 14, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 15, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."},
-    { "id": 16, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 17, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 18, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
-    { "id": 19, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 20, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."},
-    { "id": 21, "first_name": "Terry", "last_name": "Smith", "order_amount": 10, "address": "123 Smith St."},
-    { "id": 22, "first_name": "Muku", "last_name": "Tang", "order_amount": 10, "address": "324 Tang St."},
-    { "id": 23, "first_name": "Buki", "last_name": "Mango", "order_amount": 10, "address": "545 Mango St."},
-    { "id": 24, "first_name": "Wongo", "last_name": "Bongo", "order_amount": 10, "address": "875 Bongo St."},
-    { "id": 25, "first_name": "Ringo", "last_name": "Starr", "order_amount": 10, "address": "982 Starr St."}
-  ],
-
-  "data": [
-    { "name": "Apple", "color": "bg-orange-500", "score": 5 },
-    { "name": "Orange", "color": "bg-orange-500", "score": 3 },
-    { "name": "Lime", "color": "bg-orange-500", "score": 1 },
-    { "name": "Grape", "color": "bg-orange-500", "score": 4 }
   ]
-
-
 }
